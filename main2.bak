@@ -1,0 +1,10 @@
+provider "aws" {
+  region = "us-east-1"  # Set your desired AWS region
+  access_key = "AKIAXOQ24E7PPRESZXNK"
+  secret_key = "jBdQuFbu4boKav8w5HfsKDKWrkWiZIZoqxoZfrZC"
+}
+
+
+resource "aws_s3_bucket" "my_bucket" {
+  bucket = "alpha1234"  # Set a unique bucket name
+}
